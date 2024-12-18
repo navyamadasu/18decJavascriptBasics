@@ -1,0 +1,120 @@
+Javascript-Single threaded, Synchronous language- it is having a single thread inside which every code will executed line by line.
+                                                (or)
+JS is a high level programming language which is used to create dynamic web applications that can be create by writing scripts. so, it can be called as scripting language.
+********************************************Variables****************************************************
+lexical structures:
+
+lexical refers to the relationship between functions and their surrounding code. It is a way of defining how variables and functions interact based on their position within the code.
+---------------------------------------------------------------------------------------
+what do you know about var let and cost ?
+
+in js, these are just a way to define  variable.
+---------------------------------------------------------------------------------------
+what is the difference between var let and cost ?
+
+in js ,var let and const all of them are just a way to define  variable.
+
+Let, var, const these are keywords.
+
+Variable is like a container to store different types of data.
+
+in js , var is a function scope .it can redeclared and reinitialised.
+
+in js, let is a  block scope .Let can be reinitialized and we cannot redeclare it.
+
+const is a block scope. it cannot be redeclared it and we cannot reintialised.it should be declare and intialise on the same line. 
+---------------------------------------------------------------------------------------
+Expressions:
+An expression is a combination of values, variables, and operators, which computes to a value. 
+---------------------------------------------------------------------------------------
+Datatypes:
+
+in js there are two types of datatypes
+datatypes has been categorised in two ways :
+1.primitive datatypes
+2.Non-primitive datatype
+---------------------------------------------------------------------------------------
+1.primitive datatype:
+
+A primitive data type specifies the size and type of variable values, and it has no additional methods. 
+There are seven primitive data types:
+
+1.Numbers
+
+2.String- ‘’,””, 
+
+A string can be any text inside double or single quotes.
+
+3.Boolean-True or False
+
+In JavaScript, a Boolean value is one that can either be TRUE or FALSE. If you need to know “yes” or “no” about something, then you would want to use the Boolean function. It sounds extremely simple, but Booleans are used all the time in JavaScript programming, and they are extremely useful.
+
+4.Bigint-1,2,3----
+
+BigInt values represent numeric values which are too large to be represented by the number primitive.
+
+
+5.Undefined
+
+undefined is a primitive value that is automatically assigned to variables that have been declared but have not been assigned a value.
+
+6.Null 
+null is an assignment value that represents no value or no object. It is often used to indicate that a variable has no value or that an object does not exist.
+
+7.Symbol - ==, ===
+
+sholds value that have different instances(example) and memory allocated to it.
+The double equal operator only checks if two objects are references to the same object in memory, while the triple equal operator checks if two objects have the same properties and values.
+---------------------------------------------------------------------------------------
+2.Non-primitive datatype:
+
+1.Object
+2.Array
+3.Function
+---------------------------------------------------------------------------------------
+ARRAY:
+
+1.Array is an object to store multiple data under one single variable name
+
+2.Two ways to define an array-   Array literal and Array constructor
+
+3.Array name, elements, array index, array length
+--------------------------------------------------------------------------------------
+ Array literal-
+
+ In JavaScript, an array literal is a list of expressions, each of which represents an array element, enclosed in a pair of square brackets ' [ ] '.
+---------------------------------------------------------------------------------------
+Array constructor-
+
+ Arrays can be created using a constructor with a single number parameter. An array is created with its length property set to that number, and the array elements are empty slots.
+---------------------------------------------------------------------------------------
+OBJECT:
+1.object is non-primitive data type which store data in key value pair
+2.Two ways to define an object - object literal and object constructor
+3.Better to use Const-constant
+Object Literal
+An object literal is a list of name: value pairs inside curly braces {}.
+Object Constructor:
+Keys, values
+---------------------------------------------------------------------------------------
+OPERATORS:
+Operators are used to perform operation on one or more operand(value)
+Expression
+
+Operators are 6 types
+
+1.Arithmetic: 1, +, -, /, %, *, **(exponentiation), ++(increment), --(decrement),
+
+2.Assignment: =, + =, -= ,*=, /=, %= ,**
+
+3.Logical: &&(logical and ), || (logical or), ! (logical not)
+
+4.Comparison: == , ===, >, <,  <=,  >=,  !=,  !==
+
+5.Bitwise : type of and instance of
+
+6.Miscellaneous
+---------------------------------------------------------------------------------------
+diff == and ===:
+
+when using == it will just check the value not type, but when using=== which strict way to compare it will check both value and type.
